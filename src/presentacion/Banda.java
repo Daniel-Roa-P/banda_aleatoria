@@ -25,6 +25,7 @@ public class Banda{
         Violinista persona_v=new Violinista();
         Maraquero persona_m=new Maraquero();
         Arpista persona_a=new Arpista();
+        Flautista persona_f=new Flautista();
         
         c=p.getcontador();
         
@@ -35,12 +36,14 @@ public class Banda{
         persona_v.asistencia();
         persona_m.asistencia();
         persona_a.asistencia();
+        persona_f.asistencia();
         
         persona_g.reportarse();
         persona_t.reportarse();
         persona_v.reportarse();
         persona_m.reportarse();
         persona_a.reportarse();
+        persona_f.reportarse();
            
         System.out.println("¿desea que toquen? S/N ");
         opcion=sc.next();
